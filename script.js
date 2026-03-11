@@ -1,4 +1,4 @@
-console.log("Hello World");
+/*console.log("Hello World");
 const name = "Darsh";
 console.log(name);
 console.log("The length of the name is: " + name.length);
@@ -29,3 +29,58 @@ const sym2 = Symbol(4);
 console.log(sym2); // This will print a different unique symbol value
 console.log(typeof(sym2)); // This will print "symbol"
 console.log(sym1 === sym2); 
+
+let count;
+document.write(" Starting Loop " + "<br/>");
+for (count = 0; count < 10; count++) {  
+    document.write("Current count: " + count + "<br/>");
+}
+doucument.write(" Loop Ended ");
+
+const person ={
+    fname:"Manni",
+    lname:"chauhan",
+    age:"82",
+}
+for (let x in person){
+    console.log( " Person details:" +x+":"+person[x])
+}
+
+let count = 0;
+while(count < 10){
+    document.write("Current count: " + count + "<br/>");
+    count++;
+}
+
+document.write(" Loop Ended ");   */
+
+// let age=20;
+// if(age >= 18){
+//     document.write("<b>You are a not minor.</b>");
+// }
+// else{
+//     document.write("<b>You are a minor.</b>");
+// }
+
+let grade='A';
+document.write("<b>Your grade is: " + grade + "</b><br/>");
+document.write("Entering swtich block <br/>");
+switch(grade){
+    case 'A':
+        document.write("<b>Excellent!</b>");    
+        break;
+    case 'B':
+        document.write("<b>Good job!</b>");
+        break;
+    case 'C':
+        document.write("<b>Well done!</b>");
+        break;
+    case 'D':
+        document.write("<b>You passed.</b>");
+        break;
+    case 'F':
+        document.write("<b>Better luck next time.</b>");
+        break;
+    default:
+        document.write("<b>Invalid grade.</b>");
+}
