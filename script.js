@@ -62,25 +62,33 @@ document.write(" Loop Ended ");   */
 //     document.write("<b>You are a minor.</b>");
 // }
 
-let grade='A';
-document.write("<b>Your grade is: " + grade + "</b><br/>");
-document.write("Entering swtich block <br/>");
-switch(grade){
-    case 'A':
-        document.write("<b>Excellent!</b>");    
-        break;
-    case 'B':
-        document.write("<b>Good job!</b>");
-        break;
-    case 'C':
-        document.write("<b>Well done!</b>");
-        break;
-    case 'D':
-        document.write("<b>You passed.</b>");
-        break;
-    case 'F':
-        document.write("<b>Better luck next time.</b>");
-        break;
-    default:
-        document.write("<b>Invalid grade.</b>");
+// let grade='A';
+// document.write("<b>Your grade is: " + grade + "</b><br/>");
+// document.write("Entering swtich block <br/>");
+// switch(grade){
+//     case 'A':
+//         document.write("<b>Excellent!</b>");    
+//         break;
+//     case 'B':
+//         document.write("<b>Good job!</b>");
+//         break;
+//     case 'C':
+//         document.write("<b>Well done!</b>");
+//         break;
+//     case 'D':
+//         document.write("<b>You passed.</b>");
+//         break;
+//     case 'F':
+//         document.write("<b>Better luck next time.</b>");
+//         break;
+//     default:
+//         document.write("<b>Invalid grade.</b>");
+// }
+
+for(let i=0; i<5; i++){
+    if(i === 2){
+        continue; // Skip the rest of the loop when i is 2
+    }   
+    document.write("Current value of i: " + i + "<br/>");
 }
+
