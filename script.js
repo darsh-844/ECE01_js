@@ -93,5 +93,6 @@ document.write(" Loop Ended ");   */
 // }
 
 function myFunction(){
-    alert("Hello World!");
+    alert("My name is John!");
 }
+
