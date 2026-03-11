@@ -99,3 +99,8 @@ document.write(" Loop Ended ");   */
 function sayHello(name,age){
     document.write(name + " is " + age + " years old.<br/>");
 }
+let res=add(5,10);
+document.write("The result of addition is: " + res + "<br/>");
+function add(a,b){
+    return a + b;
+}
