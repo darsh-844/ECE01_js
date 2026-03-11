@@ -92,7 +92,10 @@ document.write(" Loop Ended ");   */
 //     document.write("Current value of i: " + i + "<br/>");
 // }
 
-function myFunction(){
-    alert("My name is John!");
-}
+// function myFunction(){
+//     alert("My name is John!");
+// }
 
+function sayHello(name,age){
+    document.write(name + " is " + age + " years old.<br/>");
+}
