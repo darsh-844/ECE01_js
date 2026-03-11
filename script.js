@@ -85,10 +85,10 @@ document.write(" Loop Ended ");   */
 //         document.write("<b>Invalid grade.</b>");
 // }
 
-for(let i=0; i<5; i++){
-    if(i === 2){
-        continue; // Skip the rest of the loop when i is 2
-    }   
-    document.write("Current value of i: " + i + "<br/>");
-}
+// for(let i=0; i<5; i++){
+//     if(i === 2){
+//         continue; // Skip the rest of the loop when i is 2
+//     }   
+//     document.write("Current value of i: " + i + "<br/>");
+// }
 
