@@ -105,8 +105,19 @@ document.write(" Loop Ended ");   */
 //     return a + b;
 // }
 
-let add2=(a,b)=>{
-    return a + b;
-}
-let res=add2(5,0);
-document.write("The result of addition is: " + res + "<br/>");
+// let add2=(a,b)=>{
+//     return a + b;
+// }
+// let res=add2(5,0);
+// document.write("The result of addition is: " + res + "<br/>");
+
+let person = {
+    fname: "Manni",
+    lname: "Chauhan",
+    age: 82,
+    isMarried: true,
+    address: {
+        street: "123 Main St",
+        city: "Anytown",   }
+};
+document.write(person);
