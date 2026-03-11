@@ -122,12 +122,16 @@ document.write(" Loop Ended ");   */
 // };
 // document.write(person);
 
-var person = new Object();
-person.fname = "Manni";
-person.lname = "Chauhan";
-person.age = 82;    
-person.isMarried = true;
-person.address = {};
-person.address.street = "123 Main St";
-person.address.city = "Anytown";
-console.log(person);
+// var person = new Object();
+// person.fname = "Manni";
+// person.lname = "Chauhan";
+// person.age = 82;    
+// person.isMarried = true;
+// person.address = {};
+// person.address.street = "123 Main St";
+// person.address.city = "Anytown";
+// console.log(person);
+
+//diff btw array and object
+// array is an ordered collection of values, while an object is a collection of key-value pairs. 
+// Arrays are typically used to store lists of items, while objects are used to represent more complex data structures with properties and methods.
