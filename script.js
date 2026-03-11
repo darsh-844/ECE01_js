@@ -111,13 +111,23 @@ document.write(" Loop Ended ");   */
 // let res=add2(5,0);
 // document.write("The result of addition is: " + res + "<br/>");
 
-let person = {
-    fname: "Manni",
-    lname: "Chauhan",
-    age: 82,
-    isMarried: true,
-    address: {
-        street: "123 Main St",
-        city: "Anytown",   }
-};
-document.write(person);
+// let person = {
+//     fname: "Manni",
+//     lname: "Chauhan",
+//     age: 82,
+//     isMarried: true,
+//     address: {
+//         street: "123 Main St",
+//         city: "Anytown",   }
+// };
+// document.write(person);
+
+var person = new Object();
+person.fname = "Manni";
+person.lname = "Chauhan";
+person.age = 82;    
+person.isMarried = true;
+person.address = {};
+person.address.street = "123 Main St";
+person.address.city = "Anytown";
+console.log(person);
