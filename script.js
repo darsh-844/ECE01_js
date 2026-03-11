@@ -92,3 +92,6 @@ document.write(" Loop Ended ");   */
 //     document.write("Current value of i: " + i + "<br/>");
 // }
 
+function myFunction(){
+    alert("Hello World!");
+}
