@@ -96,11 +96,17 @@ document.write(" Loop Ended ");   */
 //     alert("My name is John!");
 // }
 
-function sayHello(name,age){
-    document.write(name + " is " + age + " years old.<br/>");
-}
-let res=add(5,10);
-document.write("The result of addition is: " + res + "<br/>");
-function add(a,b){
+// function sayHello(name,age){
+//     document.write(name + " is " + age + " years old.<br/>");
+// }
+// let res=add(5,10);
+// document.write("The result of addition is: " + res + "<br/>");
+// function add(a,b){
+//     return a + b;
+// }
+
+let add2=(a,b)=>{
     return a + b;
 }
+let res=add2(5,0);
+document.write("The result of addition is: " + res + "<br/>");
