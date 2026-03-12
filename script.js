@@ -135,3 +135,4 @@ document.write(" Loop Ended ");   */
 //diff btw array and object
 // array is an ordered collection of values, while an object is a collection of key-value pairs. 
 // Arrays are typically used to store lists of items, while objects are used to represent more complex data structures with properties and methods.
+
