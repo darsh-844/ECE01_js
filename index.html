@@ -9,9 +9,10 @@
 <body>
     <h1><center>Marksheet</center></h1>
     <form action="#">
-        <input type="number" name="" id="subjects" placeholder="Subject 1">
+        <input type="number" name="" id="subjects" placeholder="Subject 1" min="0" max="5" required>
     </form>
     <button onclick="calRes()">Calculate Result</button>
+    <div id="result"></div>
     <script src="./script.js"></script>
 </body>
 </html>
