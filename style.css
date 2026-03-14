@@ -3,6 +3,7 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+
 }
 h1 {
     color: rgb(11, 11, 11);
@@ -10,7 +11,7 @@ h1 {
 form {
     margin-bottom: 20px;
 }
-input[type="number"] {
+input{
     padding: 10px;
     font-size: 16px;
     width: 200px;
