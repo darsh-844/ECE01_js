@@ -193,5 +193,9 @@ document.write(" Loop Ended ");   */
 // var myInfo1=Array();
 // console.log(myInfo,myInfo1)
 
-const result= document.getElementById("dj");
-result.innerHTML="<b> Hello World </b>";
+// const result= document.getElementById("dj");
+// result.innerHTML="<b> Hello World </b>";
+
+const result1=document.getElementsByClassName("p1");
+result1[1].innerHTML="<b> Darsh </b>";
+result1[0].innerHTML="<b> Hello World </b>";
