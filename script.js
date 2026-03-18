@@ -196,10 +196,19 @@ document.write(" Loop Ended ");   */
 // const result= document.getElementById("dj");
 // result.innerHTML="<b> Hello World </b>";
 
-const result1=document.getElementsByClassName("p1");
-result1[1].innerHTML="<b> Darsh </b>";
-result1[0].innerHTML="<b> Hello World </b>";
-result1[2].innerHTML="<b> Welcome to JavaScript </b>";
-result1[0].style.color="red";
-result1[1].style.color="green";
-result1[2].style.color="blue";
+// const result1=document.getElementsByClassName("p1");
+// result1[1].innerHTML="<b> Darsh </b>";
+// result1[0].innerHTML="<b> Hello World </b>";
+// result1[2].innerHTML="<b> Welcome to JavaScript </b>";
+// result1[0].style.color="red";
+// result1[1].style.color="green";
+// result1[2].style.color="blue";
+
+// const result=document.getElementById("div").getAttribute("class");
+// document.getElementById("p1").innerHTML=result ;
+
+const heading = document.createElement("h1");
+const bodytag= document.getElementsByTagName("body");
+bodytag[0].append(heading);
+heading.innerHTML="Hello World";
+heading.style.color="red";
