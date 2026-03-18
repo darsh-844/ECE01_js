@@ -199,3 +199,7 @@ document.write(" Loop Ended ");   */
 const result1=document.getElementsByClassName("p1");
 result1[1].innerHTML="<b> Darsh </b>";
 result1[0].innerHTML="<b> Hello World </b>";
+result1[2].innerHTML="<b> Welcome to JavaScript </b>";
+result1[0].style.color="red";
+result1[1].style.color="green";
+result1[2].style.color="blue";
