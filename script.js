@@ -189,6 +189,9 @@ document.write(" Loop Ended ");   */
 //     resDiv.innerHTML = "<b>Total Marks: " + total + "</b><br/><b>Average Marks: " + average + "</b><br/><b>Grade: " + grade + "</b><br/><b>Result: " + result + "</b>";
 // }
     
-var myInfo=new Array();
-var myInfo1=Array();
-console.log(myInfo,myInfo1)
+// var myInfo=new Array();
+// var myInfo1=Array();
+// console.log(myInfo,myInfo1)
+
+const result= document.getElementById("dj");
+result.innerHTML="<b> Hello World </b>";
