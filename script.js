@@ -261,3 +261,14 @@ function onKeyUp(){
     console.log("Key is released!");
 }
 
+function onBlur(){
+    console.log("Input field lost focus!");
+}
+
+function onFocus(){
+    console.log("Input field is focused!");
+}
+
+function onChange(){
+    console.log("Input value changed!");
+}   
