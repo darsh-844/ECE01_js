@@ -245,3 +245,6 @@ function onMouseMove(){
     console.log("Mouse is moving!");
 }
 
+function myFunction(){
+    alert("Window loaded successfully!");
+}
