@@ -209,6 +209,6 @@ document.write(" Loop Ended ");   */
 
 const heading = document.createElement("h1");
 const bodytag= document.getElementsByTagName("body");
-bodytag[0].append(heading);
+bodytag[0].before(heading);
 heading.innerHTML="Hello World";
 heading.style.color="red";
