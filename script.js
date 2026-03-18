@@ -248,3 +248,16 @@ function onMouseMove(){
 function myFunction(){
     alert("Window loaded successfully!");
 }
+
+function onKeyDown(){
+    console.log("Key is pressed down!");
+}
+
+function onKeyPress(){
+    console.log("Key is being pressed!");
+}
+
+function onKeyUp(){
+    console.log("Key is released!");
+}
+
