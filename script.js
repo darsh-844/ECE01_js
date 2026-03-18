@@ -189,6 +189,10 @@ document.write(" Loop Ended ");   */
 //     resDiv.innerHTML = "<b>Total Marks: " + total + "</b><br/><b>Average Marks: " + average + "</b><br/><b>Grade: " + grade + "</b><br/><b>Result: " + result + "</b>";
 // }
     
+
+// WED 18.03.2026
+
+
 // var myInfo=new Array();
 // var myInfo1=Array();
 // console.log(myInfo,myInfo1)
@@ -207,8 +211,37 @@ document.write(" Loop Ended ");   */
 // const result=document.getElementById("div").getAttribute("class");
 // document.getElementById("p1").innerHTML=result ;
 
-const heading = document.createElement("h1");
-const bodytag= document.getElementsByTagName("body");
-bodytag[0].before(heading);
-heading.innerHTML="Hello World";
-heading.style.color="red";
+// const heading = document.createElement("h1");
+// const bodytag= document.getElementsByTagName("body");
+// bodytag[0].before(heading);
+// heading.innerHTML="Hello World";
+// heading.style.color="red";
+
+function onClick(){
+    alert("Button Clicked!");
+}
+
+function onMouseOver(){
+    console.log("Mouse is over the text!");
+}
+
+function onMouseOut(){
+    console.log("Mouse is out of the text!");
+}
+
+function onMouseDown(){
+    console.log("Mouse button is pressed!");
+}
+
+function onMouseUp(){
+    console.log("Mouse button is released!");
+}
+
+function onDblClick(){    
+    console.log("Element was double-clicked!");
+}
+
+function onMouseMove(){
+    console.log("Mouse is moving!");
+}
+
