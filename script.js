@@ -217,58 +217,59 @@ document.write(" Loop Ended ");   */
 // heading.innerHTML="Hello World";
 // heading.style.color="red";
 
-function onClick(){
-    alert("Button Clicked!");
-}
+// function onClick(){
+//     alert("Button Clicked!");
+// }
 
-function onMouseOver(){
-    console.log("Mouse is over the text!");
-}
+// function onMouseOver(){
+//     console.log("Mouse is over the text!");
+// }
 
-function onMouseOut(){
-    console.log("Mouse is out of the text!");
-}
+// function onMouseOut(){
+//     console.log("Mouse is out of the text!");
+// }
 
-function onMouseDown(){
-    console.log("Mouse button is pressed!");
-}
+// function onMouseDown(){
+//     console.log("Mouse button is pressed!");
+// }
 
-function onMouseUp(){
-    console.log("Mouse button is released!");
-}
+// function onMouseUp(){
+//     console.log("Mouse button is released!");
+// }
 
-function onDblClick(){    
-    console.log("Element was double-clicked!");
-}
+// function onDblClick(){    
+//     console.log("Element was double-clicked!");
+// }
 
-function onMouseMove(){
-    console.log("Mouse is moving!");
-}
+// function onMouseMove(){
+//     console.log("Mouse is moving!");
+// }
 
-function myFunction(){
-    alert("Window loaded successfully!");
-}
+// function myFunction(){
+//     alert("Window loaded successfully!");
+// }
 
-function onKeyDown(){
-    console.log("Key is pressed down!");
-}
+// function onKeyDown(){
+//     console.log("Key is pressed down!");
+// }
 
-function onKeyPress(){
-    console.log("Key is being pressed!");
-}
+// function onKeyPress(){
+//     console.log("Key is being pressed!");
+// }
 
-function onKeyUp(){
-    console.log("Key is released!");
-}
+// function onKeyUp(){
+//     console.log("Key is released!");
+// }
 
-function onBlur(){
-    console.log("Input field lost focus!");
-}
+// function onBlur(){
+//     console.log("Input field lost focus!");
+// }
 
-function onFocus(){
-    console.log("Input field is focused!");
-}
+// function onFocus(){
+//     console.log("Input field is focused!");
+// }
 
-function onChange(){
-    console.log("Input value changed!");
-}   
+// function onChange(){
+//     console.log("Input value changed!");
+// }   
+
