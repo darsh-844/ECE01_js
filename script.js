@@ -310,3 +310,13 @@ localStorage.setItem("name", "Darsh");
 var name1=localStorage.getItem("name");
 console.log(name1);
 localStorage.removeItem("name");
+
+localStorage.removeItem("name");
+
+let user = {
+    name: "Darsh",
+    age: 18,};
+localStorage.setItem("user", JSON.stringify(user));
+
+let dats=JSON.parse(localStorage.getItem("user"));
+console.log(dats.name, dats.age);
