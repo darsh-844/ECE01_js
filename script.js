@@ -273,15 +273,24 @@ document.write(" Loop Ended ");   */
 //     console.log("Input value changed!");
 // }   
 
-let promise=new Promise((resolve, reject) => {
-    // Asynchronous operation
+// 19.04.26
+
+// let promise=new Promise((resolve, reject) => {
+//     // Asynchronous operation
     
-        let success = true; // Change this to simulate success or failure
-        if (success) {
-            resolve("Loaded successfully!");
-        } else {
-            reject("Loaded failed!");
-        }
+//         let success = true; // Change this to simulate success or failure
+//         if (success) {
+//             resolve("Loaded successfully!");
+//         } else {
+//             reject("Loaded failed!");
+//         }
     
-});
-promise.then(result => console.log(result)).catch(error => console.error(error));
+// });
+// promise.then(result => console.log(result)).catch(error => console.error(error));
+
+async function getData(){
+    let response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+    let data = await response.json();
+    console.log(data);
+}
+getData();
