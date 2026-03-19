@@ -306,17 +306,17 @@ document.write(" Loop Ended ");   */
 //     console.log("An error occurred: ", error);
 // }
 
-localStorage.setItem("name", "Darsh");
-var name1=localStorage.getItem("name");
-console.log(name1);
-localStorage.removeItem("name");
+// localStorage.setItem("name", "Darsh");
+// var name1=localStorage.getItem("name");
+// console.log(name1);
+// localStorage.removeItem("name");
 
-localStorage.removeItem("name");
+// localStorage.removeItem("name");
 
-let user = {
-    name: "Darsh",
-    age: 18,};
-localStorage.setItem("user", JSON.stringify(user));
+// let user = {
+//     name: "Darsh",
+//     age: 18,};
+// localStorage.setItem("user", JSON.stringify(user));
 
-let dats=JSON.parse(localStorage.getItem("user"));
-console.log(dats.name, dats.age);
+// let dats=JSON.parse(localStorage.getItem("user"));
+// console.log(dats.name, dats.age);
