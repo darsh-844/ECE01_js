@@ -300,8 +300,13 @@ document.write(" Loop Ended ");   */
 // .then(data => console.log(data))
 // .catch(error => console.error("Error fetching data: ", error));
 
-try {
-    let x=y+10;
-} catch (error) {
-    console.log("An error occurred: ", error);
-}
+// try {
+//     let x=y+10;
+// } catch (error) {
+//     console.log("An error occurred: ", error);
+// }
+
+localStorage.setItem("name", "Darsh");
+var name1=localStorage.getItem("name");
+console.log(name1);
+localStorage.removeItem("name");
